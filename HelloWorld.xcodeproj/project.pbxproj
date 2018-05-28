@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4191FC20B451A50039BD7E /* WebkitViewTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4191FB20B451A50039BD7E /* WebkitViewTestController.swift */; };
 		CE4D6ADA20AC356B0027691D /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D6AD920AC356B0027691D /* RowItem.swift */; };
 		CE4D6AE020AC5FE20027691D /* UIImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D6ADF20AC5FE20027691D /* UIImageVIewExtension.swift */; };
+		CE5A577120B5016F0034D973 /* NSLineBreakModeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A577020B5016F0034D973 /* NSLineBreakModeExtension.swift */; };
 		CE81EA2A20ADAA9B00A8E11B /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA2920ADAA9B00A8E11B /* Scenes.swift */; };
 		CE81EA2D20AE676200A8E11B /* CollectionCellLabelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA2C20AE676200A8E11B /* CollectionCellLabelItem.swift */; };
 		CE81EA2F20AE68B500A8E11B /* CollectionCellImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA2E20AE68B500A8E11B /* CollectionCellImageItem.swift */; };
 		CE81EA3320AEFC3500A8E11B /* CollectionTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA3220AEFC3500A8E11B /* CollectionTestController.swift */; };
 		CE81EA3520AF185700A8E11B /* StackViewTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA3420AF185700A8E11B /* StackViewTestController.swift */; };
 		CE81EA3720AF32DC00A8E11B /* ScrollViewTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81EA3620AF32DC00A8E11B /* ScrollViewTestController.swift */; };
+		CE9D094920B7146400DDA315 /* NavigationBarTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D094820B7146400DDA315 /* NavigationBarTestController.swift */; };
+		CE9D094B20B83FFB00DDA315 /* SearchBarTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D094A20B83FFB00DDA315 /* SearchBarTestController.swift */; };
+		CE9D094D20B85E9F00DDA315 /* TabbarTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D094C20B85E9F00DDA315 /* TabbarTestController.swift */; };
+		CEAAD23E20B4644A007E12AA /* LabelTextFieldTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD23D20B4644A007E12AA /* LabelTextFieldTestController.swift */; };
 		CEAE90BF20ABBECA00A42A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE90BE20ABBECA00A42A34 /* AppDelegate.swift */; };
 		CEAE90C120ABBECA00A42A34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE90C020ABBECA00A42A34 /* TableViewController.swift */; };
 		CEAE90C420ABBECA00A42A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAE90C220ABBECA00A42A34 /* Main.storyboard */; };
@@ -27,14 +33,20 @@
 		4FC7963572D32872F268174C /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		596F066F1F19B6964557A937 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E17A1353EA441A142ADECB7 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4191FB20B451A50039BD7E /* WebkitViewTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebkitViewTestController.swift; sourceTree = "<group>"; };
 		CE4D6AD920AC356B0027691D /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
 		CE4D6ADF20AC5FE20027691D /* UIImageVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageVIewExtension.swift; sourceTree = "<group>"; };
+		CE5A577020B5016F0034D973 /* NSLineBreakModeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLineBreakModeExtension.swift; sourceTree = "<group>"; };
 		CE81EA2920ADAA9B00A8E11B /* Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
 		CE81EA2C20AE676200A8E11B /* CollectionCellLabelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellLabelItem.swift; sourceTree = "<group>"; };
 		CE81EA2E20AE68B500A8E11B /* CollectionCellImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellImageItem.swift; sourceTree = "<group>"; };
 		CE81EA3220AEFC3500A8E11B /* CollectionTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTestController.swift; sourceTree = "<group>"; };
 		CE81EA3420AF185700A8E11B /* StackViewTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewTestController.swift; sourceTree = "<group>"; };
 		CE81EA3620AF32DC00A8E11B /* ScrollViewTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTestController.swift; sourceTree = "<group>"; };
+		CE9D094820B7146400DDA315 /* NavigationBarTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTestController.swift; sourceTree = "<group>"; };
+		CE9D094A20B83FFB00DDA315 /* SearchBarTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTestController.swift; sourceTree = "<group>"; };
+		CE9D094C20B85E9F00DDA315 /* TabbarTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarTestController.swift; sourceTree = "<group>"; };
+		CEAAD23D20B4644A007E12AA /* LabelTextFieldTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextFieldTestController.swift; sourceTree = "<group>"; };
 		CEAE90BB20ABBECA00A42A34 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAE90BE20ABBECA00A42A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAE90C020ABBECA00A42A34 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4D6ADF20AC5FE20027691D /* UIImageVIewExtension.swift */,
+				CE5A577020B5016F0034D973 /* NSLineBreakModeExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -80,6 +93,11 @@
 				CE81EA3220AEFC3500A8E11B /* CollectionTestController.swift */,
 				CE81EA3420AF185700A8E11B /* StackViewTestController.swift */,
 				CE81EA3620AF32DC00A8E11B /* ScrollViewTestController.swift */,
+				CE4191FB20B451A50039BD7E /* WebkitViewTestController.swift */,
+				CEAAD23D20B4644A007E12AA /* LabelTextFieldTestController.swift */,
+				CE9D094820B7146400DDA315 /* NavigationBarTestController.swift */,
+				CE9D094A20B83FFB00DDA315 /* SearchBarTestController.swift */,
+				CE9D094C20B85E9F00DDA315 /* TabbarTestController.swift */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -252,11 +270,17 @@
 				CE81EA3720AF32DC00A8E11B /* ScrollViewTestController.swift in Sources */,
 				CE81EA3320AEFC3500A8E11B /* CollectionTestController.swift in Sources */,
 				CE81EA3520AF185700A8E11B /* StackViewTestController.swift in Sources */,
+				CE4191FC20B451A50039BD7E /* WebkitViewTestController.swift in Sources */,
+				CE9D094D20B85E9F00DDA315 /* TabbarTestController.swift in Sources */,
 				CEAE90BF20ABBECA00A42A34 /* AppDelegate.swift in Sources */,
+				CE9D094B20B83FFB00DDA315 /* SearchBarTestController.swift in Sources */,
 				CE81EA2A20ADAA9B00A8E11B /* Scenes.swift in Sources */,
 				CE4D6AE020AC5FE20027691D /* UIImageVIewExtension.swift in Sources */,
 				CE81EA2D20AE676200A8E11B /* CollectionCellLabelItem.swift in Sources */,
+				CE9D094920B7146400DDA315 /* NavigationBarTestController.swift in Sources */,
 				CE81EA2F20AE68B500A8E11B /* CollectionCellImageItem.swift in Sources */,
+				CE5A577120B5016F0034D973 /* NSLineBreakModeExtension.swift in Sources */,
+				CEAAD23E20B4644A007E12AA /* LabelTextFieldTestController.swift in Sources */,
 				CE4D6ADA20AC356B0027691D /* RowItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

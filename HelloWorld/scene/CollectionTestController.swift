@@ -17,6 +17,10 @@ class CollectionTestController: UIViewController, UICollectionViewDelegate, UICo
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        
+        
+        
         self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
@@ -46,6 +50,7 @@ class CollectionTestController: UIViewController, UICollectionViewDelegate, UICo
     // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
     //실제 아이템을 생성하여 반환한다.
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cellType = indexPath.row % 2 == 0 ? "cellImageItem" : "cellLabelItem"
         let cell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: cellType, for: indexPath)
         

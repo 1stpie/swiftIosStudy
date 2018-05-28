@@ -20,9 +20,15 @@ class  Scenes {
     }
     
     //[key value and title : storyBoard ID]
-    public static let lists: Array<Scenes.TableRowData> = [Scenes.TableRowData("UICollectionView","collectionViewController"),
-                                             Scenes.TableRowData("UIStackView", "stackViewController"),
-                                             Scenes.TableRowData("UIScrollView", "scrollViewController")]
-    
-    
+    public static let lists: Array<Scenes.TableRowData> = [
+        Scenes.TableRowData("UICollectionView","collectionViewController"),
+        Scenes.TableRowData("UIStackView", "stackViewController"),
+        Scenes.TableRowData("UIScrollView", "scrollViewController"),
+        Scenes.TableRowData("UIWebkitView", "webkitViewTestContoller"),
+        Scenes.TableRowData("Label, TextField, TextView", "LabelTextFieldTestController"),
+        Scenes.TableRowData("NavigationBar", "NavigationBarTestController"),
+        Scenes.TableRowData("SearchBar", "SearchBarTestController"),
+        Scenes.TableRowData("Tabbar, ToolBar", "TabbarTestController"),
+       
+    ]
 }
