@@ -526,7 +526,7 @@
                                 </connections>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ViO-IH-DNE">
-                                <rect key="frame" x="16" y="75.5" width="343" height="28"/>
+                                <rect key="frame" x="16" y="75" width="343" height="28"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IuV-5Y-Wuy">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="29"/>
@@ -547,16 +547,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B5a-uR-IhV">
-                                <rect key="frame" x="16" y="111" width="343" height="28"/>
+                                <rect key="frame" x="16" y="110.5" width="343" height="28.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line break" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxO-Yo-3zp">
-                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="28.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8P-FP-kab">
-                                        <rect key="frame" x="79.5" y="0.0" width="263.5" height="28"/>
+                                        <rect key="frame" x="79.5" y="0.0" width="263.5" height="28.5"/>
                                         <state key="normal" title="선택"/>
                                         <connections>
                                             <action selector="setLineBreakMode:" destination="Wgr-c8-ck7" eventType="touchUpInside" id="uOC-Jb-6sv"/>
@@ -783,7 +783,7 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcz-bL-uzk">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem title="안녕" id="gkr-pq-GA9">
+                                    <barButtonItem title="안녕" style="plain" id="gkr-pq-GA9">
                                         <connections>
                                             <action selector="hello:" destination="NqG-JW-xKB" id="bEw-Ru-z91"/>
                                         </connections>
@@ -802,18 +802,33 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0b4-oS-1D5">
+                            <tabBar contentMode="scaleToFill" translucent="NO" selectionIndicatorImage="back" translatesAutoresizingMaskIntoConstraints="NO" id="0b4-oS-1D5">
                                 <rect key="frame" x="0.0" y="574" width="375" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem badgeValue="10" springLoaded="YES" systemItem="history" id="rIV-1c-3vU"/>
+                                    <tabBarItem badgeValue="10" selectedImage="back" springLoaded="YES" id="rIV-1c-3vU">
+                                        <color key="badgeColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tabBarItem>
                                     <tabBarItem badgeValue="20" springLoaded="YES" systemItem="search" id="RfK-sq-AKy"/>
                                     <tabBarItem springLoaded="YES" systemItem="contacts" id="rcv-VQ-fdn"/>
+                                    <tabBarItem title="Item" id="Y2k-GT-Lkp"/>
                                     <tabBarItem systemItem="more" id="XwA-79-OFY">
                                         <offsetWrapper key="titlePositionAdjustment" horizontal="30" vertical="0.0"/>
                                     </tabBarItem>
                                 </items>
+                                <color key="selectedImageTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tabBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgc-JN-0ge">
+                                <rect key="frame" x="0.0" y="330" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" id="7ah-0a-LmC"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="FM6-hD-uPK"/>
+                                    <barButtonItem title="Item" id="9FZ-r0-nx7"/>
+                                    <barButtonItem width="35" style="plain" systemItem="fixedSpace" id="JQa-CN-pCW"/>
+                                    <barButtonItem title="Item" id="mdX-FG-vQR"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -833,4 +848,7 @@
             <point key="canvasLocation" x="7020" y="-266"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="75" height="75"/>
+    </resources>
 </document>
